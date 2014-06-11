@@ -1,0 +1,41 @@
+name = archuletaTheme
+description: custom theme for the azslr.com ecommerce site. responsive design.
+core = 7.x
+
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/main.css
+
+scripts[] = js/jquery-1.11.1.min.js
+scripts[] = js/modernizer-2.6.2.js
+scripts[] = js/skrollr.js
+scripts[] = js/main.js
+
+; Regions
+; =======
+; Default
+regions[page_top] = Page Top
+regions[header] = Header
+regions[highlight] = Highlight
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second = Sidebar Second
+regions[footer] = Footer
+regions[page_bottom] = Page Bottom
+
+; Custom
+regions[navigation]
+
+; Features
+; ========
+features[] = favicon
+features[] = name
+features[] = slogan
+features[] = comment_user_verification
+features[] = main_menu
+features[] = logo
+
+; Unsupported
+featured[] = node_user_picture
+featured[] = comment_user_picture
+featured[] = secondary_menu
