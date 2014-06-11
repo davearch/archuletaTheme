@@ -2,7 +2,112 @@
  * 
  * David Archuleta Jr 2014
  */
-#logo {
-	max-width: 100%;
-	height: auto;
+* {
+	padding: 0;
+	margin: 0;
 }
+
+html {
+	color: #646473; /* grey */
+	height: 100%;
+}
+
+body {
+	background-color: #FFF;
+	font-size: 100%;
+	line-height: normal;
+	font-weight: 300;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #646473; /* grey */
+	height: 100%;
+}
+*,
+*:after,
+*:before {
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+}
+
+::-moz-selection {
+	background: #FF19C2; /* Triad */
+	color: #222;
+}
+
+::selection {
+	background: #FF19C2; /* Triad */
+	color: #222;
+}
+
+hr {
+	display: block;
+	height: 2px;
+	border: 0;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 27px;
+	background-color: #FF5E00;
+}
+
+img {
+	vertical-align: middle;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.page {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 95%;
+	max-width: 1196px;
+}
+
+.loader {
+	background-color: #FFF;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	bottom: 0px;
+	left: 0px;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	z-index: 9999;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+.row [class$="-content"] {
+	overflow: hidden;
+}
+/* 
+@font-face {
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
