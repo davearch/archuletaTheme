@@ -1,1 +1,8 @@
-/* todo */
+/* main css style for archuletaTheme
+ * 
+ * David Archuleta Jr 2014
+ */
+#logo {
+	max-width: 100%;
+	height: auto;
+}
