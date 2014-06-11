@@ -1,5 +1,5 @@
 name = archuletaTheme
-description: custom theme for the azslr.com ecommerce site. responsive design.
+description = custom theme for the azslr.com ecommerce site. responsive design.
 core = 7.x
 
 stylesheets[all][] = css/normalize.css
@@ -24,7 +24,7 @@ regions[footer] = Footer
 regions[page_bottom] = Page Bottom
 
 ; Custom
-regions[navigation] = Navigation
+;regions[navigation] = Navigation
 
 ; Features
 ; ========
